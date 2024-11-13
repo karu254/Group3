@@ -1,0 +1,137 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('eggs.jpeg') no-repeat center center fixed;
+    background-size: cover; /* Cover the entire page */
+    color: #ffffff; /* White text for readability */
+    line-height: 1.6;
+}
+
+/* Overlay on the content to improve readability */
+.content-wrapper {
+    background-color: rgba(0, 0, 0, 0.6); /* Darker black overlay with transparency */
+    padding: 20px; /* Reverted padding */
+    border-radius: 10px; /* Rounded corners for a softer look */
+    max-width: 1200px; /* Limit the width for better readability */
+    margin: auto; /* Center the content */
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    padding: 20px; /* Reverted padding */
+    color: #ffc107; /* Golden yellow for title text */
+}
+
+header h1 {
+    font-size: 2.5em; /* Larger font size for the main title */
+    margin-bottom: 10px; /* Space between title and subtitle */
+}
+
+header p {
+    font-size: 1.3em; /* Slightly larger font size for subtitle */
+}
+
+/* Navigation bar styling */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8); /* Darker semi-transparent black for navigation */
+    padding: 10px; /* Reverted padding */
+    margin-top: 10px; /* Reverted margin */
+    border-radius: 5px; /* Rounded corners for a softer look */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px; /* Reverted margin */
+}
+
+nav ul li a {
+    color: #ffc107; /* Golden yellow links */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em; /* Slightly larger font size for links */
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffffff; /* White for hover effect */
+}
+
+/* Highlight active page link */
+nav ul li a.active {
+    color: #f3dfa2; /* Change text color for active link */
+    font-weight: bold; /* Make text bold */
+    border-bottom: 2px solid #ffc107; /* Add underline effect */
+    text-transform: capitalize; /* Capitalize active page text */
+}
+
+/* Main content styling */
+main {
+    padding: 20px; /* Reverted padding */
+    text-align: center;
+}
+
+main h2 {
+    margin-bottom: 10px; /* Reverted margin */
+    font-size: 2em; /* Larger font size for section titles */
+    color: #ffc107;
+}
+
+main p {
+    font-size: 1.2em; /* Slightly larger font size for paragraphs */
+    color: #ffffff;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px; /* Reverted padding */
+    background-color: rgba(0, 0, 0, 0.8); /* Darker semi-transparent black for footer */
+    color: #ffffff;
+    font-size: 1em; /* Slightly larger font size for footer text */
+    margin-top: 20px; /* Reverted margin */
+    width: 100%; /* Full width for better alignment */
+    border-radius: 5px; /* Rounded corners for a softer look */
+}
+
+input[type="text"], input[type="email"], input[type="number"], input[type="date"], textarea {
+    font-size: 1.2em; /* Increase font size for better readability */
+    padding: 3px; /* Increase padding for better spacing */
+    width: 30%; /* Full width for better alignment */
+    border-radius: 5px; /* Rounded corners for a softer look */
+    margin-bottom: 10px; /* Reverted margin */
+}
+
+.btn-primary {
+    margin-top: 12px;
+}
+
+.chart-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+canvas {
+    width: 100% !important;
+    height: 400px !important;
+}
+
+
+.chart-bg {
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust transparency */
+    padding: 15px;
+    border-radius: 8px;
+}
+
